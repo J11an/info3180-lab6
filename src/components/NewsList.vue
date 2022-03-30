@@ -9,7 +9,9 @@
     <button class="btn btn-primary mb-2">Search</button>
     </div>
     <p>You are searching for {{ searchTerm }}</p>
+    </form>
 
+    
     <ul class="class news__list ">
         <li v-for =" article in articles" class="news__item">
     <div class="card">
@@ -23,7 +25,6 @@
     
 
 </ul>
-</form>
 </template>
 
 <script>
