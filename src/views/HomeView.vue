@@ -23,5 +23,5 @@ export default {
 </template>
 
 <style>
-/* Add any component specific styles here */
+
 </style>
