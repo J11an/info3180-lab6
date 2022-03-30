@@ -50,7 +50,7 @@ export default {
 
     headers:{
 
-        'Authorization': 'Bearer 352457c32f544ddbb6aa9eea265874f2'
+                'Authorization': `Bearer ${import.meta.env.VITE_NEWSAPI_TOKEN}`,
     }
     })
     .then (function(response){
@@ -70,9 +70,9 @@ export default {
 
             headers: {
 
-            'Authorization': 'Bearer 352457c32f544ddbb6aa9eea265874f2'
-
-            }
+                'Authorization': `Bearer ${import.meta.env.VITE_NEWSAPI_TOKEN}`,
+           
+           }
             })
             .then(function(response){
                 return response.json();
